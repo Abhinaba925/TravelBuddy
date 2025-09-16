@@ -13,29 +13,29 @@ Simple Web UI: An intuitive and easy-to-use interface built with Streamlit.
 ## How to Run Locally
 Follow these steps to set up and run the project on your machine.
 
-1. Prerequisites
+### 1. Prerequisites
 Python 3.8+
 
 A Google Gemini API Key
 
-2. Clone the Repository
+### 2. Clone the Repository
 If you've uploaded the project to GitHub, clone it. Otherwise, just navigate to your project folder.
 
 Bash
 
 git clone https://github.com/your-username/TravelBuddy.git
 cd TravelBuddy
-3. Set Up Your Environment
+### 3. Set Up Your Environment
 Create a file named .env in the project's root directory and add your Gemini API key:
 
 GOOGLE_API_KEY="YOUR_API_KEY_HERE"
-4. Install Dependencies
+### 4. Install Dependencies
 Install the required Python libraries from the requirements.txt file.
 
 Bash
 
 pip install -r requirements.txt
-5. Run the Streamlit App
+### 5. Run the Streamlit App
 Launch the application by running the following command in your terminal:
 
 Bash
