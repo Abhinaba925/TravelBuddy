@@ -98,7 +98,7 @@ streamlit run app.py
 
 This application is deployed and live on Streamlit Community Cloud.
 
-**Live Demo**: [TravelBuddy Pro App](https://your-app-name.streamlit.app)
+**Live Demo**: [TravelBuddy Pro App](https://travelbuddypro-nqzhqdsuedvuwgsym8zbmu.streamlit.app/)
 
 *(Note: Replace the link above with the actual URL of your deployed app)*
 
