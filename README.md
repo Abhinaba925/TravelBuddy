@@ -14,7 +14,7 @@ An interactive, AI-powered travel planner for crafting personalized Indian holid
 * **Actionable Suggestions**: Integrates "Ride with Uber" and "Book on EaseMyTrip" buttons for locations and accommodations, making the plan instantly usable.
 * **PDF Export**: Allows users to download their complete itinerary as a PDF, with full support for vernacular language characters.
 
-[GIF of the interactive map filtering by day]
+
 
 ---
 
