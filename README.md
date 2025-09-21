@@ -2,9 +2,8 @@
 
 An interactive, AI-powered travel planner for crafting personalized Indian holidays. Built with Streamlit and powered by the Google Gemini API, this app transforms simple user inputs into detailed, actionable, and multi-lingual travel itineraries.
 
-
-
 ---
+
 ## ✨ Features
 
 * **AI-Powered Itineraries**: Leverages the Google Gemini API to generate creative and practical travel plans from scratch.
@@ -18,6 +17,7 @@ An interactive, AI-powered travel planner for crafting personalized Indian holid
 [GIF of the interactive map filtering by day]
 
 ---
+
 ## 🛠️ Tech Stack
 
 This project is built with a modern, open-source stack:
@@ -30,60 +30,94 @@ This project is built with a modern, open-source stack:
 * **Deployment**: Streamlit Community Cloud
 
 ---
+
 ## 🚀 Getting Started
 
 To run this project on your local machine, follow these steps.
 
 ### Prerequisites
+
 * Python 3.8+
 * A GitHub account to clone the repository.
 
 ### 1. Clone the Repository
-```bash
-git clone [https://github.com/Abhinaba925/TravelBuddyPro.git](https://github.com/Abhinaba925/TravelBuddyPro.git)
+
+git clone https://github.com/Abhinaba925/TravelBuddyPro.git
 cd TravelBuddyPro
 
-2. Create a Virtual Environment
+
+### 2. Create a Virtual Environment
+
 It's highly recommended to use a virtual environment to keep dependencies isolated.
-# For macOS/Linux
+
+For macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
 
-# For Windows
+For Windows
 python -m venv venv
 .\venv\Scripts\activate
 
-3. Install Dependencies
+
+### 3. Install Dependencies
+
 Install all the required Python libraries from the requirements.txt file.
+
 pip install -r requirements.txt
 
-4. Set Up API Keys (Secrets)
-The application requires API keys for Google Gemini and Mapbox. For local development, you'll use a .env file.
 
-Create a new file in the root of your project folder named .env.
+### 4. Set Up API Keys (Secrets)
 
-Copy the content below into the file and replace the placeholder text with your actual API keys.
+The application requires API keys for Google Gemini and Mapbox. For local development, you'll use a `.env` file.
 
-# .env file
+1. Create a new file in the root of your project folder named `.env`
+2. Copy the content below into the file and replace the placeholder text with your actual API keys:
+
+.env file
 GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY_HERE"
 MAPBOX_API_TOKEN="pk.eyJ1...YOUR_MAPBOX_PUBLIC_TOKEN_HERE"
 
-5. Download the Font for PDF Export
+
+### 5. Download the Font for PDF Export
+
 The PDF generation for vernacular languages requires a specific font.
 
-Download the font: Noto Sans Devanagari
+1. **Download the font**: [Noto Sans Devanagari](https://fonts.google.com/noto/specimen/Noto+Sans+Devanagari)
+2. **Place the file**: Make sure the downloaded `NotoSansDevanagari-Regular.ttf` file is inside the `fonts` folder in your project.
 
-Place the file: Make sure the downloaded NotoSansDevanagari-Regular.ttf file is inside the fonts folder in your project.
+### 6. Run the App
 
-6. Run the App
 You're all set! Run the following command in your terminal:
 
 streamlit run app.py
 
-☁️ Deployment
+
+---
+
+## ☁️ Deployment
+
 This application is deployed and live on Streamlit Community Cloud.
 
+**Live Demo**: [TravelBuddy Pro App](https://your-app-name.streamlit.app)
 
-(Note: You will need to replace the link above with the actual URL of your deployed app)
+*(Note: Replace the link above with the actual URL of your deployed app)*
 
-Deployment is handled automatically by Streamlit Cloud whenever a new commit is pushed to the main branch of the GitHub repository. Secrets (GOOGLE_API_KEY and MAPBOX_API_TOKEN) are configured directly in the Streamlit Cloud dashboard for security.
+Deployment is handled automatically by Streamlit Cloud whenever a new commit is pushed to the main branch of the GitHub repository. Secrets (`GOOGLE_API_KEY` and `MAPBOX_API_TOKEN`) are configured directly in the Streamlit Cloud dashboard for security.
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+---
+
+## 📧 Contact
+
+For questions or suggestions, please reach out via GitHub issues or contact the maintainer directly.
