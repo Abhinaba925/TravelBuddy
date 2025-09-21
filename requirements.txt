@@ -3,3 +3,4 @@ google-generativeai
 pandas
 pydeck
 fpdf2
+python-dotenv
