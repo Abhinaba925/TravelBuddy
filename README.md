@@ -52,8 +52,8 @@ It's highly recommended to use a virtual environment to keep dependencies isolat
 Bash
 
 ### For macOS/Linux
-'''python3 -m venv venv
-source venv/bin/activate'''
+python3 -m venv venv
+source venv/bin/activate
 
 ### For Windows
 python -m venv venv
@@ -91,8 +91,9 @@ Place the file: Make sure the downloaded NotoSansDevanagari-Regular.ttf file is 
 You're all set! Run the following command in your terminal:
 
 Bash
+```bash
+streamlit run app.py
 
-'''streamlit run app.py'''
 ☁️ Deployment
 This application is deployed and live on Streamlit Community Cloud.
 
